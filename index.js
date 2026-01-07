@@ -4,7 +4,7 @@ const app = express();
 
 // Data monster (hardcoded untuk Vercel deployment)
 // Atau bisa fetch dari Supabase jika diperlukan
-const monsterData = require('./toram_data_complete.json');
+const monsterData = require('./toram_data_authentic.json');
 
 // Middleware
 app.use(express.json());
