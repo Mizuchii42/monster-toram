@@ -1,15 +1,25 @@
-// index.js - Vercel Serverless Function
 const express = require('express');
 const app = express();
 
-// Data monster (hardcoded untuk Vercel deployment)
-// Atau bisa fetch dari Supabase jika diperlukan
-const monsterData = require('./boss.json');
+// Load data JSON baru
+// Pastikan file 'boss.json' berisi data hasil output Python tadi
+let rawData = [];
+try {
+  rawData = require('./boss.json');
+} catch (e) {
+  console.error("Gagal memuat boss.json. Pastikan file ada dan formatnya benar.");
+  rawData = [];
+}
+
+// Pre-processing: Tambahkan ID unik berdasarkan index jika tidak ada
+// Ini penting agar endpoint /:id tetap bekerja
+const monsterData = rawData.map((m, index) => ({
+  id: index + 1, // ID dimulai dari 1
+  ...m
+}));
 
 // Middleware
 app.use(express.json());
-
-// CORS untuk akses dari frontend
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
@@ -17,33 +27,33 @@ app.use((req, res, next) => {
   next();
 });
 
-// Helper function untuk filter valid monsters
+// Helper: Cek apakah monster valid (punya nama dan statdef)
 const getValidMonsters = () => {
-  return monsterData.filter(m => m.level !== null && typeof m.id === 'number');
+  return monsterData.filter(m => m.name && Array.isArray(m.statdef) && m.statdef.length > 0);
 };
 
 // Root endpoint
 app.get('/', (req, res) => {
   res.json({
-    message: 'Toram Monster API',
-    version: '1.0.0',
+    message: 'Toram Monster API (Grouped Version)',
+    version: '2.0.0',
+    structure: 'Hierarchical (Name -> Statdef)',
     endpoints: {
       'GET /api/monsters': 'Ambil semua monster',
       'GET /api/monsters/:id': 'Ambil monster berdasarkan ID',
       'GET /api/monsters/search/:name': 'Cari monster berdasarkan nama',
-      'GET /api/monsters/element/:element': 'Filter monster berdasarkan element',
-      'GET /api/monsters/level/:min/:max': 'Filter monster berdasarkan level range',
-      'GET /api/stats': 'Ambil statistik data monster'
+      'GET /api/monsters/element/:element': 'Filter berdasarkan element (cek semua difficulty)',
+      'GET /api/monsters/level/:min/:max': 'Filter berdasarkan level range (cek semua difficulty)',
+      'GET /api/stats': 'Statistik total varian boss'
     }
   });
 });
 
-// GET semua monster
+// GET semua monster (Paginated)
 app.get('/api/monsters', (req, res) => {
   try {
     const validMonsters = getValidMonsters();
 
-    // Pagination
     const page = parseInt(req.query.page) || 1;
     const limit = parseInt(req.query.limit) || 20;
     const startIndex = (page - 1) * limit;
@@ -67,30 +77,30 @@ app.get('/api/monsters', (req, res) => {
 // GET monster berdasarkan ID
 app.get('/api/monsters/:id', (req, res) => {
   try {
-    const monster = monsterData.find(m => m.id === parseInt(req.params.id));
+    const id = parseInt(req.params.id);
+    const monster = monsterData.find(m => m.id === id);
 
-    if (!monster || monster.level === null) {
+    if (!monster) {
       return res.status(404).json({
         success: false,
         message: 'Monster tidak ditemukan'
       });
     }
 
-    res.json({
-      success: true,
-      data: monster
-    });
+    res.json({ success: true, data: monster });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
 });
 
-// GET monster berdasarkan nama (search)
+// GET monster search by NAME
 app.get('/api/monsters/search/:name', (req, res) => {
   try {
     const searchTerm = req.params.name.toLowerCase();
+
+    // Cari di properti 'name'
     const results = monsterData.filter(m =>
-      m.name && m.name.toLowerCase().includes(searchTerm) && m.level !== null
+      m.name && m.name.toLowerCase().includes(searchTerm)
     );
 
     res.json({
@@ -103,14 +113,19 @@ app.get('/api/monsters/search/:name', (req, res) => {
   }
 });
 
-// GET monster berdasarkan element
+// GET monster by ELEMENT
+// Mencari monster yang SALAH SATU varian difficulty-nya memiliki elemen tersebut
 app.get('/api/monsters/element/:element', (req, res) => {
   try {
-    const element = req.params.element;
-    const validMonsters = getValidMonsters();
-    const results = validMonsters.filter(m =>
-      m.element && m.element.toLowerCase().includes(element.toLowerCase())
-    );
+    const elementQuery = req.params.element.toLowerCase();
+
+    const results = monsterData.filter(m => {
+      if (!m.statdef) return false;
+      // Cek apakah ada statdef yang elemennya cocok
+      return m.statdef.some(stat =>
+        stat.element && stat.element.toLowerCase().includes(elementQuery)
+      );
+    });
 
     res.json({
       success: true,
@@ -122,16 +137,21 @@ app.get('/api/monsters/element/:element', (req, res) => {
   }
 });
 
-// GET monster berdasarkan level range
+// GET monster by LEVEL RANGE
+// Mencari monster yang SALAH SATU varian difficulty-nya masuk range level
 app.get('/api/monsters/level/:min/:max', (req, res) => {
   try {
     const min = parseInt(req.params.min);
     const max = parseInt(req.params.max);
-    const validMonsters = getValidMonsters();
 
-    const results = validMonsters.filter(m =>
-      m.level >= min && m.level <= max
-    );
+    const results = monsterData.filter(m => {
+      if (!m.statdef) return false;
+      // Cek apakah ada statdef yang levelnya masuk range
+      return m.statdef.some(stat => {
+        const lvl = parseInt(stat.level);
+        return !isNaN(lvl) && lvl >= min && lvl <= max;
+      });
+    });
 
     res.json({
       success: true,
@@ -143,38 +163,61 @@ app.get('/api/monsters/level/:min/:max', (req, res) => {
   }
 });
 
-// GET statistik
+// GET Statistics
 app.get('/api/stats', (req, res) => {
   try {
-    const validMonsters = getValidMonsters();
+    // Flatten semua statdef untuk hitungan statistik global
+    const allVariants = [];
+    monsterData.forEach(m => {
+      if (m.statdef) {
+        m.statdef.forEach(stat => allVariants.push(stat));
+      }
+    });
+
+    const levels = allVariants.map(v => parseInt(v.level)).filter(l => !isNaN(l));
+    const hps = allVariants.map(v => parseInt(v.hp)).filter(h => !isNaN(h));
 
     const stats = {
-      total_monsters: validMonsters.length,
-      avg_level: (validMonsters.reduce((sum, m) => sum + m.level, 0) / validMonsters.length).toFixed(2),
-      max_level: Math.max(...validMonsters.map(m => m.level)),
-      min_level: Math.min(...validMonsters.map(m => m.level)),
-      elements: [...new Set(validMonsters.map(m => m.element).filter(e => e))],
-      avg_hp: Math.round(validMonsters.reduce((sum, m) => sum + (m.hp || 0), 0) / validMonsters.length)
+      total_unique_bosses: monsterData.length,
+      total_difficulty_variants: allVariants.length,
+      level: {
+        max: Math.max(...levels),
+        min: Math.min(...levels),
+        avg: levels.length ? (levels.reduce((a, b) => a + b, 0) / levels.length).toFixed(2) : 0
+      },
+      hp: {
+        avg: hps.length ? Math.round(hps.reduce((a, b) => a + b, 0) / hps.length) : 0,
+        max: Math.max(...hps)
+      },
+      elements_distribution: {}
     };
 
-    res.json({
-      success: true,
-      data: stats
+    // Hitung distribusi elemen
+    allVariants.forEach(v => {
+      if (v.element) {
+        const el = v.element.trim();
+        stats.elements_distribution[el] = (stats.elements_distribution[el] || 0) + 1;
+      }
     });
+
+    res.json({ success: true, data: stats });
   } catch (err) {
     res.status(500).json({ success: false, error: err.message });
   }
 });
 
-// 404 handler
+// 404 Handler
 app.use((req, res) => {
-  res.status(404).json({
-    success: false,
-    message: 'Endpoint tidak ditemukan'
-  });
+  res.status(404).json({ success: false, message: 'Endpoint tidak ditemukan' });
 });
 
 // Export untuk Vercel
-app.listen(2000, () => {
-  console.log("A")
-})
+module.exports = app;
+
+// Local Development
+if (require.main === module) {
+  const PORT = process.env.PORT || 2000;
+  app.listen(PORT, () => {
+    console.log(`Server running on port ${PORT}`);
+  });
+}
