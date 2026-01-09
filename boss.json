@@ -1,0 +1,3796 @@
+[
+  {
+    "name": "Astol",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "50",
+        "hp": "82.040",
+        "xp": "760",
+        "element": "Wind\n(Angin)",
+        "def": "50",
+        "mdef": "150",
+        "flee": "112",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "15",
+        "proration_normal": "6",
+        "proration_phys": "25",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Ancient Empress Mezzaluna\n(Ratu Kuno)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "64",
+        "hp": "130.000",
+        "xp": "3.120",
+        "element": "Light\n(Cahaya)",
+        "def": "32",
+        "mdef": "32",
+        "flee": "48",
+        "res_phys": "52",
+        "res_magic": "52",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "1",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Arachnidemon",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "196",
+        "hp": "2.394.000",
+        "xp": "11.600",
+        "element": "Dark\n(Gelap)",
+        "def": "512",
+        "mdef": "392",
+        "flee": "351",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "10",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Aranea",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "100",
+        "hp": "380.000",
+        "xp": "4.400",
+        "element": "Fire\n(Api)",
+        "def": "PH1: 130\nPH2: 120",
+        "mdef": "PH1: 110\nPH2: 100",
+        "flee": "PH1: 300\nPH2: 375",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "10",
+        "proration_phys": "20",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "B.B. Goblin",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "70",
+        "hp": "24.331",
+        "xp": "2.400",
+        "element": "Fire\n(Api)",
+        "def": "140",
+        "mdef": "210",
+        "flee": "157",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "5",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Bexiz",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "103",
+        "hp": "645.000",
+        "xp": "7.610",
+        "element": "Neutral\n(Netral)",
+        "def": "216",
+        "mdef": "247",
+        "flee": "123",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "15",
+        "evade": "1",
+        "proration_normal": "35",
+        "proration_phys": "40",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Black Knight of Delusion\n(Ksatria Buruk Dusta)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "88",
+        "hp": "540.000",
+        "xp": "6.600",
+        "element": "Dark\n(Gelap)",
+        "def": "176",
+        "mdef": "176",
+        "flee": "231",
+        "res_phys": "PH1: 23\nPH2: 33",
+        "res_magic": "PH1: 23\nPH2: 33",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "10",
+        "proration_normal": "5",
+        "proration_phys": "30",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Black Shadow\n(Bayangan Hitam)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "199",
+        "hp": "2.780.000",
+        "xp": "12.500",
+        "element": "PURPLE: Dark\nRED: Fire",
+        "def": "398",
+        "mdef": "598",
+        "flee": "294",
+        "res_phys": "DARK: 7\nFIRE (1M DMG): 27",
+        "res_magic": "DARK: 7\nFIRE (1M DMG): 27",
+        "res_crit": "10",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "1",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Boss Colon\n(Bos Colon)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "10",
+        "hp": "1.000",
+        "xp": "30",
+        "element": "Earth\n(Bumi)",
+        "def": "7",
+        "mdef": "7",
+        "flee": "11",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Boss Goblin\n(Goblin Bos)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "40",
+        "hp": "26.758",
+        "xp": "560",
+        "element": "Fire\n(Api)",
+        "def": "30",
+        "mdef": "30",
+        "flee": "75",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "0",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Boss Roga\n(Bos Roga)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "62",
+        "hp": "250.000",
+        "xp": "3.000",
+        "element": "Neutral\n(Netral)",
+        "def": "N: 62\nFTS: 186",
+        "mdef": "N: 62\nFTS: 186",
+        "flee": "N: 279\nFTS: 93",
+        "res_phys": "N: 2\nFTS: 27",
+        "res_magic": "N: 2\nFTS: 27",
+        "res_crit": "0",
+        "guard": "N: 10\nFTS: 10",
+        "evade": "N: 5\nFTS: 5",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Brutal Dragon Decel\n(Naga Beringas Decel)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "40",
+        "hp": "53.000",
+        "xp": "560",
+        "element": "Earth\n(Bumi)",
+        "def": "20",
+        "mdef": "20",
+        "flee": "75",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "25",
+        "evade": "0",
+        "proration_normal": "8",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Cerberus",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "97",
+        "hp": "800.000",
+        "xp": "9.220",
+        "element": "Blue: Water\nRed: Fire\nYellow: Wind\nWhite: Neutral",
+        "def": "N: 146\nF: 970\nT: 49\nS: 97\nLHP: 194",
+        "mdef": "N: 146\nF: 49\nT: 970\nS: 97\nLHP: 194",
+        "flee": "N: 145\nF: 145\nT: 145\nS: 145\nLHP: 174",
+        "res_phys": "N: 3\nF: 50\nT: 3\nS: -5\nLHP: 10",
+        "res_magic": "N: 3\nF: 3\nT: 50\nS: -5\nLHP: 10",
+        "res_crit": "0",
+        "guard": "N: 10\nF: 10\nT: 10\nS: 10\nLHP: 15",
+        "evade": "N: 1\nF: 1\nT: 1\nS: 10\nLHP: 5",
+        "proration_normal": "15",
+        "proration_phys": "20",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Crystal Titan\n(Titan Kristal)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "148",
+        "hp": "1.000.000",
+        "xp": "9.300",
+        "element": "Dark\n(Gelap)",
+        "def": "N: 593\nBREAK+BODY:401",
+        "mdef": "N: 678\nBREAK+BODY:359",
+        "flee": "111",
+        "res_phys": "N: 25\nBREAK+BODY:5\nFTS: 100",
+        "res_magic": "N: 25\nBREAK+BODY:5\nFTS: 100",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "0",
+        "proration_normal": "20",
+        "proration_phys": "30",
+        "proration_magic": "27"
+      }
+    ]
+  },
+  {
+    "name": "Demonic Quasar\n(Quasar Jahanam)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "185",
+        "hp": "8.000.000",
+        "xp": "40.500",
+        "element": "Dark\n(Gelap)",
+        "def": "925",
+        "mdef": "925",
+        "flee": "259",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "25",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Demon's Gate\n(Gerbang Iblis)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "60",
+        "hp": "18.000",
+        "xp": "1.440",
+        "element": "Dark\n(Gelap)",
+        "def": "180",
+        "mdef": "180",
+        "flee": "0",
+        "res_phys": "N: 2\nF: 20",
+        "res_magic": "N: 2\nF: 20",
+        "res_crit": "0",
+        "guard": "N: 0\nF: 100",
+        "evade": "N: 0\nF: 0",
+        "proration_normal": "150",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Eerie Crystal\n(Kristal Jahat)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "24",
+        "hp": "6.300",
+        "xp": "225",
+        "element": "Dark\n(Gelap)",
+        "def": "0",
+        "mdef": "0",
+        "flee": "0",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "0",
+        "proration_normal": "30",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Eroded Pilz\n(Pilz Erosi)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "172",
+        "hp": "2.360.000",
+        "xp": "18.700",
+        "element": "PURPLE: Fire\nGREEN: Neutral",
+        "def": "N: 602\nBREAK+RIGHT: 421\nGREEN: def x2",
+        "mdef": "N: 499\nBREAK+RIGHT:349\nGREEN: mdef x2",
+        "flee": "258",
+        "res_phys": "N: 26\nBREAK+RIGHT: 6\nBREAK+HEAD: 20\nBREAK+RIGHT+HEAD: 0",
+        "res_magic": "N: 26\nBREAK+RIGHT: 6\nBREAK+HEAD: 20\nBREAK+RIGHT+HEAD: 0",
+        "res_crit": "PURPLE: 23\nGREEN: 40",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "20",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Evil Crystal Beast\n(Iblis Kristal Jahanam)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "91",
+        "hp": "530.000",
+        "xp": "6.300",
+        "element": "Dark\n(Gelap)",
+        "def": "PH1: 274\nPH2: 165",
+        "mdef": "PH1: 320\nPH2: 183",
+        "flee": "PH1: 136\nPH2: 163",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "PH1: 30,110 (FTSD)\nPH2: 10",
+        "evade": "PH1: 0\nPH2: 5,100 (FTSD)",
+        "proration_normal": "5",
+        "proration_phys": "30",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Excavated Golem\n(Golem Galian)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "16",
+        "hp": "3.150",
+        "xp": "90",
+        "element": "Neutral\n(Netral)",
+        "def": "12",
+        "mdef": "12",
+        "flee": "12",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "15",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Ferzen the Rock Dragon",
+    "statdef": [
+      {
+        "difficulty": "easy",
+        "level": "201",
+        "hp": "317100",
+        "xp": "1515",
+        "element": "Earth\n(Bumi)",
+        "def": "Base:105,5 Break:-5,2 s/d -10,4",
+        "mdef": "Base:74 Break:-2,8 s/d -5,3",
+        "flee": "31,4",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "20",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "10",
+        "proration_magic": "20"
+      },
+      {
+        "difficulty": "normal",
+        "level": "211",
+        "hp": "3171000",
+        "xp": "15150",
+        "element": "Earth\n(Bumi)",
+        "def": "Base:1055 Break:-52 s/d -104",
+        "mdef": "Base:740 Break:-28 s/d -54",
+        "flee": "314",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "20",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "10",
+        "proration_magic": "20"
+      },
+      {
+        "difficulty": "hard",
+        "level": "221",
+        "hp": "6342000",
+        "xp": "30300",
+        "element": "Earth\n(Bumi)",
+        "def": "Base:2110 Break:-104 s/d -208",
+        "mdef": "Base:1480 Break:-56 s/d -108",
+        "flee": "628",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "20",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "10",
+        "proration_magic": "20"
+      },
+      {
+        "difficulty": "nightmare",
+        "level": "231",
+        "hp": "15855000",
+        "xp": "75750",
+        "element": "Earth\n(Bumi)",
+        "def": "Base:4220 Break:-208 s/d -416",
+        "mdef": "Base:2960 Break:-112 s/d -216",
+        "flee": "1256",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "20",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "10",
+        "proration_magic": "20"
+      },
+      {
+        "difficulty": "ultimate",
+        "level": "251",
+        "hp": "31710000",
+        "xp": "151500",
+        "element": "Earth\n(Bumi)",
+        "def": "Base:6330 Break:-312 s/d -624",
+        "mdef": "Base:4440 Break:-168 s/d -324",
+        "flee": "1884",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "20",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "10",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Finstern the Dark Dragon\n(Finstern si Naga Kegelapan)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "166",
+        "hp": "2.400.000",
+        "xp": "14.000",
+        "element": "Dark\n(Gelap)",
+        "def": "249",
+        "mdef": "249",
+        "flee": "25",
+        "res_phys": "PH1: 6\nPH2: 16",
+        "res_magic": "PH1: 6\nPH2: 16",
+        "res_crit": "PH1: 0\nPH2: 125\nPH2 FTS: -100",
+        "guard": "1",
+        "evade": "1",
+        "proration_normal": "100",
+        "proration_phys": "1",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Flare Volg",
+    "statdef": [
+      {
+        "difficulty": "easy",
+        "level": "40",
+        "hp": "12600",
+        "xp": "132",
+        "element": "Fire\n(Api)",
+        "def": "20",
+        "mdef": "20",
+        "flee": "10",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "normal",
+        "level": "50",
+        "hp": "126000",
+        "xp": "1320",
+        "element": "Fire\n(Api)",
+        "def": "200",
+        "mdef": "200",
+        "flee": "100",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "5",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "hard",
+        "level": "60",
+        "hp": "252000",
+        "xp": "2640",
+        "element": "Fire\n(Api)",
+        "def": "400",
+        "mdef": "400",
+        "flee": "200",
+        "res_phys": "10",
+        "res_magic": "10",
+        "res_crit": "10",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "nightmare",
+        "level": "70",
+        "hp": "630000",
+        "xp": "6600",
+        "element": "Fire\n(Api)",
+        "def": "600",
+        "mdef": "600",
+        "flee": "300",
+        "res_phys": "20",
+        "res_magic": "20",
+        "res_crit": "25",
+        "guard": "10",
+        "evade": "5",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "ultimate",
+        "level": "90",
+        "hp": "1260000",
+        "xp": "13200",
+        "element": "Fire\n(Api)",
+        "def": "1200",
+        "mdef": "1200",
+        "flee": "500",
+        "res_phys": "30",
+        "res_magic": "30",
+        "res_crit": "40",
+        "guard": "20",
+        "evade": "10",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      }
+    ]
+  },
+  {
+    "name": "Forest Wolf\n(Anjing Hutan)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "30",
+        "hp": "16.038",
+        "xp": "300",
+        "element": "Wind\n(Angin)",
+        "def": "30",
+        "mdef": "30",
+        "flee": "45",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "0",
+        "proration_normal": "8",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Forestia",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "49",
+        "hp": "135.000",
+        "xp": "1.480",
+        "element": "Wind\n(Angin)",
+        "def": "24",
+        "mdef": "24",
+        "flee": "292",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "10",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Ganglef",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "58",
+        "hp": "107.800",
+        "xp": "1.150",
+        "element": "Earth\n(Bumi)",
+        "def": "232",
+        "mdef": "58",
+        "flee": "43",
+        "res_phys": "1",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "20",
+        "evade": "0",
+        "proration_normal": "6",
+        "proration_phys": "25",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Gemma",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "208",
+        "hp": "2.884.000",
+        "xp": "14.080",
+        "element": "N: Fire\nYELLOW: Earth\nGREEN: Light",
+        "def": "730",
+        "mdef": "700",
+        "flee": "465",
+        "res_phys": "16",
+        "res_magic": "20",
+        "res_crit": "20",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "10",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Gespenst",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "20",
+        "hp": "8.544",
+        "xp": "240",
+        "element": "Dark\n(Gelap)",
+        "def": "26",
+        "mdef": "50",
+        "flee": "30",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "20",
+        "proration_phys": "30",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Goovua",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "82",
+        "hp": "400.000",
+        "xp": "5.000",
+        "element": "Neutral\n(Netral)",
+        "def": "PH1: 41\nPH2: 57\nPH3: 82\nLHP: 0",
+        "mdef": "PH1: 41\nPH2: 57\nPH3: 82\nLHP: 0",
+        "flee": "PH1: 246\nPH2: 273\nPH3: 308\nLHP: 0",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "PH1: 5\nPH2: 5\nPH3: 5\nLHP: 0",
+        "evade": "PH1: 5\nPH2: 15\nPH3: 25\nLHP: 0",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Grass Dragon Yelb\n(Naga Sabana Yelb)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "73",
+        "hp": "439.190",
+        "xp": "5.040",
+        "element": "Earth\n(Bumi)",
+        "def": "N: 146\nSHELL: 1022",
+        "mdef": "N: 219\nSHELL: 657",
+        "flee": "87",
+        "res_phys": "N: 2\nSHELL: 22",
+        "res_magic": "N: 2\nSHELL: 2",
+        "res_crit": "0",
+        "guard": "N: 30\nSHELL: 40",
+        "evade": "N: 0\nSHELL: 0",
+        "proration_normal": "3",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Gravicep",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "184",
+        "hp": "5.150.000",
+        "xp": "184",
+        "element": "Neutral\n(Netral)",
+        "def": "AGGRO <= 7m: 552\nAGGRO > 7m: 185",
+        "mdef": "AGGRO <= 7m: 185\nAGGRO > 7m: 552",
+        "flee": "AGGRO <= 7m: 275\nAGGRO > 7m: 547",
+        "res_phys": "AGGRO <= 7m: 21\nAGGRO > 7m: 7",
+        "res_magic": "AGGRO <= 7m: 7\nAGGRO > 7m: 21",
+        "res_crit": "0",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "1",
+        "proration_phys": "100",
+        "proration_magic": "100"
+      }
+    ]
+  },
+  {
+    "name": "Guignol",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "133",
+        "hp": "490.000",
+        "xp": "6.200",
+        "element": "Wind\n(Angin)",
+        "def": "399",
+        "mdef": "0",
+        "flee": "299",
+        "res_phys": "BLUE: 80\nYELLOW: 55\nRED: 30",
+        "res_magic": "BLUE: 80\nYELLOW: 55\nRED: 30",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "50",
+        "proration_phys": "6",
+        "proration_magic": "6"
+      }
+    ]
+  },
+  {
+    "name": "Gwaimol",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "136",
+        "hp": "850.000",
+        "xp": "8.100",
+        "element": "Earth\n(Bumi)",
+        "def": "215",
+        "mdef": "216",
+        "flee": "204",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "25",
+        "guard": "15",
+        "evade": "5",
+        "proration_normal": "3",
+        "proration_phys": "1",
+        "proration_magic": "2"
+      }
+    ]
+  },
+  {
+    "name": "Hexter",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "202",
+        "hp": "2.720.000",
+        "xp": "13.420",
+        "element": "Wind\n(Angin)",
+        "def": "607",
+        "mdef": "606",
+        "flee": "285",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "NORM: 20\nEVERY 60s: 100",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "5",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Iconos",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "108",
+        "hp": "404.000",
+        "xp": "4.200",
+        "element": "Earth\n(Bumi)",
+        "def": "PH1: 162\nPH2: 216\nPH3: 270\nPH4: 324",
+        "mdef": "PH1: 140\nPH2: 194\nPH3: 248\nPH4: 302",
+        "flee": "162",
+        "res_phys": "PH1: 10\nPH2: 15\nPH3: 20\nPH4: 25",
+        "res_magic": "PH1: 10\nPH2: 15\nPH3: 20\nPH4: 25",
+        "res_crit": "0",
+        "guard": "PH1: 5, 100(T)\nPH2: 10, 100(T)\nPH3: 15, 100(T)\nPH4: 20, 100(T)",
+        "evade": "PH1: 0\nPH2: 0\nPH3: 0\nPH4: 2",
+        "proration_normal": "0",
+        "proration_phys": "0",
+        "proration_magic": "0"
+      }
+    ]
+  },
+  {
+    "name": "Ifrid",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "112",
+        "hp": "555.500",
+        "xp": "6.000",
+        "element": "Fire\n(Api)",
+        "def": "179",
+        "mdef": "158",
+        "flee": "185",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "30",
+        "proration_phys": "30",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Imitacia",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "109",
+        "hp": "720.000",
+        "xp": "8.150",
+        "element": "Fire\n(Api)",
+        "def": "PH1: 164\nFROZ: 33\nPH2: 55",
+        "mdef": "PH1: 218\nFROZ: 33\nPH2: 109",
+        "flee": "PH1: 302\nFROZ: 163\nPH2: 489",
+        "res_phys": "PH1: 35\nFROZ: 10\nPH2: 4",
+        "res_magic": "PH1: 35\nFROZ: 10\nPH2: 4",
+        "res_crit": "0",
+        "guard": "PH1: 5\nFROZ: 0\nPH2: 0",
+        "evade": "PH1: 5\nFROZ: 0\nPH2: 10",
+        "proration_normal": "30",
+        "proration_phys": "35",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Imitator",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "106",
+        "hp": "780.000",
+        "xp": "8.700",
+        "element": "Fire\n(Api)",
+        "def": "371",
+        "mdef": "392",
+        "flee": "238",
+        "res_phys": "20",
+        "res_magic": "20",
+        "res_crit": "0",
+        "guard": "20",
+        "evade": "0",
+        "proration_normal": "30",
+        "proration_phys": "35",
+        "proration_magic": "35"
+      }
+    ]
+  },
+  {
+    "name": "Inzanio the Dark Knight\n(Ksatria Gelap Inzanio)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "94",
+        "hp": "489.000",
+        "xp": "5.500",
+        "element": "Water\n(Air)",
+        "def": "PH1: 212\nPH2: 263",
+        "mdef": "PH1: 188\nPH2: 235",
+        "flee": "176",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "PH1 & PH2: 15\nF: 100",
+        "evade": "500%",
+        "proration_normal": "4",
+        "proration_phys": "35",
+        "proration_magic": "35"
+      }
+    ]
+  },
+  {
+    "name": "Irestida",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "205",
+        "hp": "2.940.000",
+        "xp": "14.460",
+        "element": "BLUE: Neutral\nGREEN: Wind",
+        "def": "922",
+        "mdef": "311",
+        "flee": "265",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "N: 100\nFREEZE: -100",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "1",
+        "proration_phys": "1",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Jade Raptor\n(Elang Zamrud)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "79",
+        "hp": "620.000",
+        "xp": "8.400",
+        "element": "Wind\n(Angin)",
+        "def": "158",
+        "mdef": "198",
+        "flee": "177",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "N: 45\nFTS: 45-10",
+        "evade": "N: 0\nFTS: 0-10",
+        "proration_normal": "4",
+        "proration_phys": "40",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Junior Dragon Zyvio\n(Naga Junior Zyvio)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "214",
+        "hp": "3.550.000",
+        "xp": "16.200",
+        "element": "Neutral\n(Netral)",
+        "def": "642",
+        "mdef": "526",
+        "flee": null,
+        "res_phys": "8",
+        "res_magic": "12",
+        "res_crit": null,
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "King Piton\n(Raja Piton)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "163",
+        "hp": "1.600.000",
+        "xp": "12.000",
+        "element": "Water\n(Air)",
+        "def": "N: 789\nBREAK+1: 690\nBREAK+2: 589\nBREAK+3: 489",
+        "mdef": "N: 244\nBREAK+1: 202\nBREAK+2: 171\nBREAK+3: 142",
+        "flee": "122",
+        "res_phys": "N: 15\nBREAK+1: 10\nBREAK+2: 5\nBREAK+3: 0",
+        "res_magic": "N: 15\nBREAK+1: 10\nBREAK+2: 5\nBREAK+3: 0",
+        "res_crit": "7",
+        "guard": "20",
+        "evade": "5",
+        "proration_normal": "30",
+        "proration_phys": "30",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Kuzto",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "178",
+        "hp": "3.500.000",
+        "xp": "18.200",
+        "element": "Earth\n(Bumi)",
+        "def": "537",
+        "mdef": "537",
+        "flee": "267",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "25",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "20",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Lalvada",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "127",
+        "hp": "600.000",
+        "xp": "6.000",
+        "element": "Light\n(Cahaya)",
+        "def": "GREEN: 449\nYELLOW: 685\nPH2: 685",
+        "mdef": "GREEN: 524\nYELLOW: 552\nPH2: 552",
+        "flee": "228",
+        "res_phys": "15",
+        "res_magic": "15",
+        "res_crit": "0",
+        "guard": "GREEN: 5\nYELLOW: 5\nPH2: 5",
+        "evade": "GREEN: 3\nYELLOW: 3,100ifRed\nPH2: 3",
+        "proration_normal": "10",
+        "proration_phys": "34",
+        "proration_magic": "44"
+      }
+    ]
+  },
+  {
+    "name": "Mardula",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "157",
+        "hp": "1.420.000",
+        "xp": "8.100",
+        "element": "PH1:  Light\nPH1+BREAJ+SPEAR: Wind\nPH2: Neutral",
+        "def": "157",
+        "mdef": "394",
+        "flee": "470",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "10",
+        "guard": "2",
+        "evade": "10",
+        "proration_normal": "10",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Masked Warrior\n(Pendekar Beratopeng)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "67",
+        "hp": "276.000",
+        "xp": "4.300",
+        "element": "Fire\n(Api)",
+        "def": "134",
+        "mdef": "134",
+        "flee": "200",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "6",
+        "proration_phys": "25",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Maton Sword\n(Pedang Maton)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "143",
+        "hp": "2.000.000",
+        "xp": "11.000",
+        "element": "Wind\n(Angin)",
+        "def": "PH1: 400\nPH2: 200\nPH3: 800\nPH4: 4000\nPH4(Para/Stop): 400",
+        "mdef": "PH1: 500\nPH2: 1000\nPH3: 250\nPH4: 5000\nPH4(Para/Stop): 500",
+        "flee": "428",
+        "res_phys": "15",
+        "res_magic": "15",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "5",
+        "proration_phys": "6",
+        "proration_magic": "6"
+      }
+    ]
+  },
+  {
+    "name": "Mauez",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "55",
+        "hp": "86.000",
+        "xp": "1.290",
+        "element": "Water\n(Air)",
+        "def": "PH1: 165\nPH2: 28",
+        "mdef": "PH1: 165\nPH2: 28",
+        "flee": "PH1: 41\nPH2: 246",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": "PH1: 35\nPH2: 10",
+        "evade": "PH1: 5\nPH2: 30",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Memecoleolus",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "100",
+        "hp": "1.290.000",
+        "xp": "14.400",
+        "element": "Neutral\n(Netral)",
+        "def": "220",
+        "mdef": "242",
+        "flee": "248",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "2",
+        "proration_normal": "40",
+        "proration_phys": "20",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Minotaur",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "32",
+        "hp": "18.000",
+        "xp": "420",
+        "element": "Wind\n(Angin)",
+        "def": "32",
+        "mdef": "32",
+        "flee": "48",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "30",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Mochelo",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "43",
+        "hp": "60.000",
+        "xp": "620",
+        "element": "Wind\n(Angin)",
+        "def": "0",
+        "mdef": "0",
+        "flee": "64",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Mom Fluck\n(Mama Fluck)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "151",
+        "hp": "1.450.000",
+        "xp": "12.400",
+        "element": "Water\n(Air)",
+        "def": "241",
+        "mdef": "353",
+        "flee": "226",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "5",
+        "proration_normal": "10",
+        "proration_phys": "15",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Mozto Machina",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "124",
+        "hp": "1.110.000",
+        "xp": "12.240",
+        "element": "Neutral\n(Netral)",
+        "def": "PH1: 248\nPH2: 124",
+        "mdef": "PH1: 439\nPH2: 219",
+        "flee": "PH1: 186\nPH2: 372",
+        "res_phys": "15",
+        "res_magic": "15",
+        "res_crit": "0",
+        "guard": "PH1: 15\nPH2: 10",
+        "evade": "PH1: 3\nPH2: 8",
+        "proration_normal": "50",
+        "proration_phys": "50",
+        "proration_magic": "27"
+      }
+    ]
+  },
+  {
+    "name": "Nurethoth",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "76",
+        "hp": "500.000",
+        "xp": "5360",
+        "element": "Dark\n(Gelap)",
+        "def": "PH1: 152\nPH2: 76",
+        "mdef": "PH1: 152\nPH2: 76",
+        "flee": "PH1: 57\nPH2: 285",
+        "res_phys": "PH1: 23\nPH2: 3",
+        "res_magic": "PH1: 23\nPH2: 3",
+        "res_crit": "0",
+        "guard": "PH1: 15\nPH2: 10",
+        "evade": "PH1: 0\nPH2: 5",
+        "proration_normal": "75",
+        "proration_phys": "2",
+        "proration_magic": "2"
+      }
+    ]
+  },
+  {
+    "name": "Ooze",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "52",
+        "hp": "44.000",
+        "xp": "1.400",
+        "element": "Water\n(Air)",
+        "def": "78",
+        "mdef": "78",
+        "flee": "0",
+        "res_phys": "12",
+        "res_magic": "12",
+        "res_crit": "0",
+        "guard": "50",
+        "evade": "0",
+        "proration_normal": "30",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Ornlarf",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "142",
+        "hp": "950.000",
+        "xp": "8.700",
+        "element": "Light\n(Cahaya)",
+        "def": "149",
+        "mdef": "710",
+        "flee": "692",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "30",
+        "guard": "3",
+        "evade": "15",
+        "proration_normal": "1",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Pillar Golem\n(Golem Pilar)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "70",
+        "hp": "324.000",
+        "xp": "3.600",
+        "element": "Earth\n(Bumi)",
+        "def": "N: 140\nEN: 1400",
+        "mdef": "N: 140\nEN: 1400",
+        "flee": "11",
+        "res_phys": "N: 2\nEN: 12",
+        "res_magic": "N: 2\nEN: 12",
+        "res_crit": "0",
+        "guard": "30",
+        "evade": "0",
+        "proration_normal": "6",
+        "proration_phys": "25",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Pisteus",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "193",
+        "hp": "2.320.000",
+        "xp": "11.300",
+        "element": "Water\n(Air)",
+        "def": "386",
+        "mdef": "483",
+        "flee": "432",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "10",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Proto Leon",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "115",
+        "hp": "585.000",
+        "xp": "6.250",
+        "element": "Earth\n(Bumi)",
+        "def": "PH1: 161\nPH1 FTS: 92\nPH2: 230",
+        "mdef": "PH1: 138\nPH1 FTS: 58\nPH2: 207",
+        "flee": "275",
+        "res_phys": "PH1: 4\nPH2: 24",
+        "res_magic": "PH1: 4\nPH2: 24",
+        "res_crit": "0",
+        "guard": "PH1: 5\nPH1 FTS: 0\nPH2: 20",
+        "evade": "PH1: 10\nPH1 FTS: 15\nPH2: 5",
+        "proration_normal": "15",
+        "proration_phys": "32",
+        "proration_magic": "16"
+      }
+    ]
+  },
+  {
+    "name": "Pyxtica",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "175",
+        "hp": "2.570.000",
+        "xp": "20.200",
+        "element": "PURPLE: Dark\nRED: Fire\nGREEN: Neutral",
+        "def": "PURPLE: 314\nRED: 437\nGREEN: 437",
+        "mdef": "PURPLE: 314\nRED: 437\nGREEN: 437",
+        "flee": "654",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "PURPLE: 15\nRED: 50\nGREEN: 500",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Reliza",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "210",
+        "hp": "5.500.000",
+        "xp": "26.200",
+        "element": "PH1+PH2: Dark\nPH3: Neutral",
+        "def": "PH1+PH2: 421\nPH3: 365",
+        "mdef": "PH1+PH2: 613\nPH3: 550",
+        "flee": "625",
+        "res_phys": "PH1+PH2: 8\nPH3: -40",
+        "res_magic": "PH1+PH2: 12\nPH3: -40",
+        "res_crit": "PH1+PH2: 30\nPH3: 500",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "1",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Repthon",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "187",
+        "hp": "5.000.000",
+        "xp": "24.760",
+        "element": "PURPLE: Dark\nRED: Fire\nYELLOW: Wind",
+        "def": "467",
+        "mdef": "467",
+        "flee": "333",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "PURPLE: 25\nRED: 25\nYELLOW: 150",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Ruin Golem",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "45",
+        "hp": "41.200",
+        "xp": "660",
+        "element": "Earth\n(Bumi)",
+        "def": "106",
+        "mdef": "106",
+        "flee": "14",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "50",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "15",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Sapphire Roga\n(Roga Safir)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "181",
+        "hp": "3.800.000",
+        "xp": "20.270",
+        "element": "PURPLE: Dark\nRED: Fire\nGREEN: Neutral",
+        "def": "315",
+        "mdef": "316",
+        "flee": "140",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "PURPLE: 15\nRED: -300\nGREEN: 300",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "5",
+        "proration_phys": "5",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Scrader",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "85",
+        "hp": "660.000",
+        "xp": "7.900",
+        "element": "Dark\n(Gelap)",
+        "def": "255",
+        "mdef": "255",
+        "flee": "64",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "0",
+        "proration_normal": "150",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Seele Zauga",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "160",
+        "hp": "3.000.000",
+        "xp": "15.300",
+        "element": "Light\n(Cahaya)",
+        "def": "SEELE: 320\nGUARD: 155",
+        "mdef": "SEELE: 320\nGUARD: 155",
+        "flee": "240",
+        "res_phys": "SEELE: 6\nGUARD: 6",
+        "res_magic": "SEELE: 6\nGUARD: 6",
+        "res_crit": "25",
+        "guard": "10",
+        "evade": "10",
+        "proration_normal": "SEELE: 5\nGUARD: 50",
+        "proration_phys": "SEELE: 30\nGUARD: 50",
+        "proration_magic": "SEELE: 20\nGUARD: 50"
+      }
+    ]
+  },
+  {
+    "name": "Shampy",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "145",
+        "hp": "850.000",
+        "xp": "7.300",
+        "element": "Water\n(Air)",
+        "def": "275",
+        "mdef": "369",
+        "flee": "434",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "10",
+        "proration_normal": "15",
+        "proration_phys": "22",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Tapir",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "120",
+        "hp": "781.300",
+        "xp": "7.800",
+        "element": "Neutral\n(Netral)",
+        "def": "144",
+        "mdef": "168",
+        "flee": "360",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "30",
+        "proration_phys": "27",
+        "proration_magic": "43"
+      }
+    ]
+  },
+  {
+    "name": "Tuscog",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "169",
+        "hp": "1.950.000",
+        "xp": "13.300",
+        "element": "Earth\n(Bumi)",
+        "def": "PH1: 442\nPH2: 337",
+        "mdef": "PH1: 260\nPH2: 208",
+        "flee": "PH1: 253\nPH2: 569",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "PH1: 0\nPH2: 25",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "20",
+        "proration_phys": "5",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Twilight Dragon\n(Naga Senja)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "100",
+        "hp": "695.000",
+        "xp": "8.000",
+        "element": "Neutral\n(Netral)",
+        "def": "PH1: 180\nPH2: 230",
+        "mdef": "PH1: 260\nPH2: 300",
+        "flee": "PH1: 240\nPH2: 255",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "PH1: 0\nPH2: 15",
+        "evade": "PH1: 1\nPH2: 5",
+        "proration_normal": "8",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Tyrant Machina\n(Machina Tiran)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "121",
+        "hp": "1.050.000",
+        "xp": "8.400",
+        "element": "Neutral\n(Netral)",
+        "def": "PH1: 61\nGREEN+T: 387\nPH2: 242",
+        "mdef": "PH1: 61\nGREEN+T: 387\nPH2: 242",
+        "flee": "PH1: 543\nGREEN: 181\nPH2: 181",
+        "res_phys": "PH1: 4\nGREEN: 25\nPH2: 10",
+        "res_magic": "PH1: 4\nGREEN: 25\nPH2: 10",
+        "res_crit": "0",
+        "guard": "PH1: 10\nFT: 15\nPH2: 15",
+        "evade": "PH1: 1, 100(F)\nFT: 0\nPH2: 3",
+        "proration_normal": "100",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Ultimate Machina\n(Machina Ultima)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "139",
+        "hp": "1.250.000",
+        "xp": "10.500",
+        "element": "Neutral\n(Netral)",
+        "def": "N:\nPH1: 418\nPH2: 280\nPH3: 140\n\nBREAK+HEAD:\nPH1: 280\nPH2: 208\nPH3: 70",
+        "mdef": "N:\nPH1: 418\nPH2: 280\nPH3: 140\n\nBREAK+HEAD:\nPH1: 280\nPH2: 208\nPH3: 70",
+        "flee": "208",
+        "res_phys": "N:\nPH1: 10\nPH2: 5\nPH3: 0\n\nBREAK+HEAD:\nPH1: 5\nPH2: 0\nPH3: -5",
+        "res_magic": "N:\nPH1: 10\nPH2: 5\nPH3: 0\n\nBREAK+HEAD:\nPH1: 5\nPH2: 0\nPH3: -5",
+        "res_crit": "15",
+        "guard": "PH1: 10\nPH2: 5",
+        "evade": "0",
+        "proration_normal": "25",
+        "proration_phys": "28",
+        "proration_magic": "17"
+      }
+    ]
+  },
+  {
+    "name": "Venena Coenubia",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "150",
+        "hp": "Unknown",
+        "xp": "30.000",
+        "element": "VENENA: Fire\nPILLAR: Dark",
+        "def": "VENENA: 300\nPILLAR: 290",
+        "mdef": "VENENA: 300\nPILLAR: 290",
+        "flee": "N: 75\nPBROKEN: 225\nPILLAR: 109",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "N: 5\nPBROKEN: 5\nPILLAR: 5",
+        "evade": "N: 0\nPBROKEN: 0\nPILLAR: 0",
+        "proration_normal": "VENENA: 20\nPILLAR: 10",
+        "proration_phys": "VENENA: 10\nPILLAR: 5",
+        "proration_magic": "VENENA: 5\nPILLAR: 20"
+      }
+    ]
+  },
+  {
+    "name": "Venena Metacoenubia",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": null,
+        "hp": "Unknown",
+        "xp": "57.000",
+        "element": "VENENA: Fire\nSEDEM: Neutral",
+        "def": "VENENA: 820\nSEDEM: 655",
+        "mdef": "VENENA: 586\nSEDEM: 476",
+        "flee": "VENENA: 436\nSEDEM: 283",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "VENENA: 5\nSEDEM: 25",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "VENENA: 1\nSEDEM: 10",
+        "proration_phys": "VENENA: 1\nSEDEM: 5",
+        "proration_magic": "VENENA: 5\nSEDEM: 20"
+      }
+    ]
+  },
+  {
+    "name": "Vulture",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "190",
+        "hp": "5.630.000",
+        "xp": "27.200",
+        "element": "PURPLE: Dark\nBLUE: Wind",
+        "def": "PH1: 524\nPH2: 597",
+        "mdef": "PH1: 618\nPH2: 704",
+        "flee": "PH1: 426\nPH2: 280",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "15",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "10",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "War Dragon Turba\n(Naga Milisi Turba)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "214",
+        "hp": "3.800.000",
+        "xp": "16.700",
+        "element": "Earth\n(Bumi)",
+        "def": "596",
+        "mdef": "705",
+        "flee": null,
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": null,
+        "guard": null,
+        "evade": null,
+        "proration_normal": "10",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Warmonger",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "60",
+        "hp": "147.690",
+        "xp": "960",
+        "element": "Light\n(Cahaya)",
+        "def": "60",
+        "mdef": "60",
+        "flee": "45",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "150",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "York",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "118",
+        "hp": "640.000",
+        "xp": "6.800",
+        "element": "Neutral\n(Cahaya)",
+        "def": "PH1: 295\nPH2: 295\nPH3: 413\nPH4: 0",
+        "mdef": "PH1: 118\nPH2: 236\nPH3: 354\nPH4: 0",
+        "flee": "PH1: 248\nPH2: 354\nPH3: 89\nPH4: 0",
+        "res_phys": "PH1: 4\nPH2: 4\nPH3: 50\nPH4: 0",
+        "res_magic": "PH1: 4\nPH2: 4\nPH3: 50\nPH4: 0",
+        "res_crit": "0",
+        "guard": "PH1: 5\nPH2: 10\nPH3: 15\nPH4: 0",
+        "evade": "PH1: 5\nPH2: 10\nPH3: 0\nPH4: 0",
+        "proration_normal": "30",
+        "proration_phys": "45",
+        "proration_magic": "0"
+      }
+    ]
+  },
+  {
+    "name": "Zahhak Machina",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "130",
+        "hp": "600.000",
+        "xp": "6.000",
+        "element": "Light\n(Cahaya)",
+        "def": "N: 1053\nS: 368\nPOISON: 368",
+        "mdef": "N: 1053\nS: 368\nPOISON: 368",
+        "flee": "0",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "N: 20\nS: 20\nPOISON: 20",
+        "evade": "N: 5\nS: 5\nPOISON: 5",
+        "proration_normal": "4",
+        "proration_phys": "3",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Zelbuse",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "154",
+        "hp": "1.600.000",
+        "xp": "11.100",
+        "element": "Light\n(Cahaya)",
+        "def": "330",
+        "mdef": "385",
+        "flee": "116",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "7",
+        "guard": "10",
+        "evade": "5",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Zolban",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "98",
+        "hp": "244.000",
+        "xp": "3.900",
+        "element": "Wind\n(Angin)",
+        "def": "196",
+        "mdef": "392",
+        "flee": "588",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "5",
+        "proration_normal": "150",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Arewzo, mayam, TheXIIIthGuy, Shirohebi ( 白蛇), Phantom’s Library",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": null,
+        "hp": null,
+        "xp": null,
+        "element": null,
+        "def": null,
+        "mdef": null,
+        "flee": null,
+        "res_phys": null,
+        "res_magic": null,
+        "res_crit": null,
+        "guard": null,
+        "evade": null,
+        "proration_normal": null,
+        "proration_phys": null,
+        "proration_magic": null
+      },
+      {
+        "difficulty": "normal",
+        "level": null,
+        "hp": null,
+        "xp": null,
+        "element": null,
+        "def": null,
+        "mdef": null,
+        "flee": null,
+        "res_phys": null,
+        "res_magic": null,
+        "res_crit": null,
+        "guard": null,
+        "evade": null,
+        "proration_normal": null,
+        "proration_phys": null,
+        "proration_magic": null
+      }
+    ]
+  },
+  {
+    "name": "N A V A",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": null,
+        "hp": null,
+        "xp": null,
+        "element": null,
+        "def": null,
+        "mdef": null,
+        "flee": null,
+        "res_phys": null,
+        "res_magic": null,
+        "res_crit": null,
+        "guard": null,
+        "evade": null,
+        "proration_normal": null,
+        "proration_phys": null,
+        "proration_magic": null
+      },
+      {
+        "difficulty": "normal",
+        "level": null,
+        "hp": null,
+        "xp": null,
+        "element": null,
+        "def": null,
+        "mdef": null,
+        "flee": null,
+        "res_phys": null,
+        "res_magic": null,
+        "res_crit": null,
+        "guard": null,
+        "evade": null,
+        "proration_normal": null,
+        "proration_phys": null,
+        "proration_magic": null
+      }
+    ]
+  },
+  {
+    "name": "Ageladanios",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "218",
+        "hp": "7.380.000",
+        "xp": "34.350",
+        "element": "Fire\n(Api)",
+        "def": "197",
+        "mdef": "1090",
+        "flee": "300",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "10",
+        "proration_phys": "20",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Altoblepas",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "174",
+        "hp": "4.350.000",
+        "xp": "27.500",
+        "element": "Neutral\n(Netral)",
+        "def": "174",
+        "mdef": "174",
+        "flee": "129",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "10",
+        "proration_phys": "20",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Amoeba Machina",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "158",
+        "hp": "4.000.000",
+        "xp": "29.000",
+        "element": "Water\n(Air)",
+        "def": "158",
+        "mdef": "237",
+        "flee": "307",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "5",
+        "proration_normal": "100",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Arbogazella",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "236",
+        "hp": "9.350.000",
+        "xp": "41.820",
+        "element": "Wind\n(Angin)",
+        "def": "898",
+        "mdef": "520",
+        "flee": "492",
+        "res_phys": "9",
+        "res_magic": "9",
+        "res_crit": "18",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "5",
+        "proration_phys": "20",
+        "proration_magic": "80"
+      }
+    ]
+  },
+  {
+    "name": "Arcoiris",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "70",
+        "hp": "790.000",
+        "xp": "2.400",
+        "element": "Neutral\n(Netral)",
+        "def": "210",
+        "mdef": "350",
+        "flee": "11",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "1",
+        "proration_phys": "50",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Armasite\n(Armasit)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "201",
+        "hp": "4.278.750",
+        "xp": "33.330",
+        "element": "Fire\n(Api)",
+        "def": "443",
+        "mdef": "402",
+        "flee": "360",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "5",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "15",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Big Coryn\n(Coryn Besar)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "60",
+        "hp": "130.000",
+        "xp": "1.730",
+        "element": "Light\n(Cahaya)",
+        "def": "60",
+        "mdef": "60",
+        "flee": "269",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "1",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Big Mask",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "70",
+        "hp": "210.000",
+        "xp": "2.400",
+        "element": "Wind\n(Angin)",
+        "def": "140",
+        "mdef": "140",
+        "flee": "27",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "5",
+        "proration_phys": "50",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Bloodie Crystal\n(Kristal Berdarah)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "207",
+        "hp": "4.535.250",
+        "xp": "34.280",
+        "element": "Dark\n(Gelap)",
+        "def": "518",
+        "mdef": "414",
+        "flee": "372",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "20",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Bubble Bogey\n(Momok Gelembung)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "177",
+        "hp": "3.377.000",
+        "xp": "26.754",
+        "element": "Fire\n(Api)",
+        "def": "369",
+        "mdef": "708",
+        "flee": "530",
+        "res_phys": "4",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "10",
+        "proration_normal": "10",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Builder Golem\n(Builder Golem)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "138",
+        "hp": "1.823.000",
+        "xp": "17.564",
+        "element": "Neutral\n(Netral)",
+        "def": "483",
+        "mdef": "484",
+        "flee": "247",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "15",
+        "evade": "5",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Bullamius",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "239",
+        "hp": "9.100.000",
+        "xp": "42.800",
+        "element": "Earth\n(Bumi)",
+        "def": "1193",
+        "mdef": "525",
+        "flee": "353",
+        "res_phys": "9",
+        "res_magic": "9",
+        "res_crit": "20",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "5",
+        "proration_phys": "20",
+        "proration_magic": "80"
+      }
+    ]
+  },
+  {
+    "name": "Canemofish\n(Nemopirania)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "210",
+        "hp": "8.565.000",
+        "xp": "39.845",
+        "element": "Light\n(Cahaya)",
+        "def": "525",
+        "mdef": "525",
+        "flee": "321",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "25",
+        "guard": "0",
+        "evade": "10",
+        "proration_normal": "10",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Carbuncle",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "183",
+        "hp": "3.412.000",
+        "xp": "27.200",
+        "element": "Fire\n(Api)",
+        "def": "382",
+        "mdef": "367",
+        "flee": "410",
+        "res_phys": "4",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "30",
+        "proration_phys": "30",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Caspy",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "77",
+        "hp": "100.000",
+        "xp": "2.720",
+        "element": "Dark\n(Gelap)",
+        "def": "154",
+        "mdef": "165",
+        "flee": "229",
+        "res_phys": "53",
+        "res_magic": "47",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "30",
+        "proration_phys": "20",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Colon Commander\n(Colon Komandan)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "33",
+        "hp": "22.000",
+        "xp": "440",
+        "element": "Fire\n(Api)",
+        "def": "66",
+        "mdef": "33",
+        "flee": "28",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "20",
+        "proration_phys": "10",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Commander Golem\n(Komandan Golem)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "154",
+        "hp": "2.050.000",
+        "xp": "20.580",
+        "element": "Dark\n(Gelap)",
+        "def": "231",
+        "mdef": "309",
+        "flee": "227",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "10",
+        "proration_normal": "35",
+        "proration_phys": "35",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Corroded Knight Captain\n(Kapten Karatan)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "128",
+        "hp": "900.000",
+        "xp": "8.738",
+        "element": "Dark\n(Gelap)",
+        "def": "568",
+        "mdef": "693",
+        "flee": "570",
+        "res_phys": "35",
+        "res_magic": "35",
+        "res_crit": "0",
+        "guard": "36",
+        "evade": "5",
+        "proration_normal": "10",
+        "proration_phys": "22",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Crimsosh\n(Crimsosch)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "37",
+        "hp": "22.500",
+        "xp": "500",
+        "element": "Fire\n(Api)",
+        "def": "74",
+        "mdef": "74",
+        "flee": "164",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "100",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Daddy Finden",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "123",
+        "hp": "800.000",
+        "xp": "8.000",
+        "element": "Water\n(Air)",
+        "def": "615",
+        "mdef": "62",
+        "flee": "92",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "0",
+        "proration_normal": "50",
+        "proration_phys": "1",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Dark Mushroom",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "30",
+        "hp": "17.500",
+        "xp": "440",
+        "element": "Dark\n(Gelap)",
+        "def": "30",
+        "mdef": "30",
+        "flee": "34",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "5",
+        "proration_phys": "25",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Death Colon\n(Colon Maut)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "84",
+        "hp": "590.000",
+        "xp": "4.620",
+        "element": "Dark\n(Gelap)",
+        "def": "504",
+        "mdef": "630",
+        "flee": "378",
+        "res_phys": "20",
+        "res_magic": "20",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "60",
+        "proration_phys": "60",
+        "proration_magic": "60"
+      }
+    ]
+  },
+  {
+    "name": "Demonic Eye\n(Mata Jahanam)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "212",
+        "hp": "10.000.000",
+        "xp": "75.834",
+        "element": "Wind\n(Cahaya)",
+        "def": "318",
+        "mdef": "212",
+        "flee": "951",
+        "res_phys": "16",
+        "res_magic": "16",
+        "res_crit": "0",
+        "guard": "30",
+        "evade": "5",
+        "proration_normal": "45",
+        "proration_phys": "5",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Don Yeti",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "103",
+        "hp": "550.000",
+        "xp": "9.482",
+        "element": "Earth\n(Bumi)",
+        "def": "206",
+        "mdef": "124",
+        "flee": "115",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "25",
+        "proration_phys": "50",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Dusk Machina",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "142",
+        "hp": "1.895.000",
+        "xp": "17.338",
+        "element": "Dark\n(Gelap)",
+        "def": "426",
+        "mdef": "427",
+        "flee": "325",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "5",
+        "proration_normal": "15",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Espectro\n(Roh Orang Mati)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "221",
+        "hp": "4.860.000",
+        "xp": "33.600",
+        "element": "Dark\n(Gelap)",
+        "def": "620",
+        "mdef": "421",
+        "flee": "399",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "5",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "10",
+        "proration_phys": "30",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Evil Magic Sword\n(Pedang Sihir Iblis)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "134",
+        "hp": "1.983.000",
+        "xp": "19.123",
+        "element": "Dark\n(Gelap)",
+        "def": "108",
+        "mdef": "134",
+        "flee": "342",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "15",
+        "proration_normal": "10",
+        "proration_phys": "10",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Fanadon\n(Bos Petapa Kadal)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "171",
+        "hp": "3.245.000",
+        "xp": "24.360",
+        "element": "Neutral\n(Netral)",
+        "def": "32",
+        "mdef": "343",
+        "flee": "381",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "25",
+        "proration_phys": "25",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Frenzy Viola\n(Violangkara)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "198",
+        "hp": "5.697.000",
+        "xp": "42.126",
+        "element": "Earth\n(Bumi)",
+        "def": "396",
+        "mdef": "396",
+        "flee": "441",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "5",
+        "proration_phys": "5",
+        "proration_magic": "0"
+      }
+    ]
+  },
+  {
+    "name": "Giant Boar\n(Celeng Raksasa)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "52",
+        "hp": "88.000",
+        "xp": "800",
+        "element": "Earth\n(Bumi)",
+        "def": "156",
+        "mdef": "156",
+        "flee": "20",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "1",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Gigant Knight\n(Ksatriaja)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "76",
+        "hp": "940.000",
+        "xp": "2.680",
+        "element": "Earth\n(Bumi)",
+        "def": "304",
+        "mdef": "304",
+        "flee": "14",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "1",
+        "proration_phys": "5",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Golden Skeleton\n(Tengkorak Emas)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "54",
+        "hp": "47.200",
+        "xp": "840",
+        "element": "Neutral\n(Netral)",
+        "def": "54",
+        "mdef": "54",
+        "flee": "325",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "50",
+        "proration_phys": "0",
+        "proration_magic": "0"
+      }
+    ]
+  },
+  {
+    "name": "Goldenia",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "187",
+        "hp": "3.500.000",
+        "xp": "27.930",
+        "element": "Wind\n(Angin)",
+        "def": "1.117",
+        "mdef": "93",
+        "flee": "840",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": "20",
+        "evade": "15",
+        "proration_normal": "10",
+        "proration_phys": "50",
+        "proration_magic": "100"
+      }
+    ]
+  },
+  {
+    "name": "Gordo",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "242",
+        "hp": null,
+        "xp": "43.700",
+        "element": "Light\n(Cahaya)",
+        "def": null,
+        "mdef": null,
+        "flee": null,
+        "res_phys": null,
+        "res_magic": null,
+        "res_crit": "0",
+        "guard": null,
+        "evade": null,
+        "proration_normal": null,
+        "proration_phys": null,
+        "proration_magic": null
+      }
+    ]
+  },
+  {
+    "name": "Granny\n(Nini)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "88",
+        "hp": "322.500",
+        "xp": "3.818",
+        "element": "Earth\n(Bumi)",
+        "def": "154",
+        "mdef": "193",
+        "flee": "65",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "5",
+        "proration_phys": "30",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Grim Reaper Scarecrow\n(Orang2an Sawah Maut)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "224",
+        "hp": "7.700.000",
+        "xp": "35.140",
+        "element": "Wind\n(Angin)",
+        "def": "672",
+        "mdef": "705",
+        "flee": "243",
+        "res_phys": "8",
+        "res_magic": "3",
+        "res_crit": "5",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "10",
+        "proration_phys": "20",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Grimuckus",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "195",
+        "hp": "3.949.200",
+        "xp": "30.240",
+        "element": "Water\n(Air)",
+        "def": "429",
+        "mdef": "390",
+        "flee": "599",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "20",
+        "proration_phys": "30",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Grylle",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "90",
+        "hp": "125.000",
+        "xp": "1.720",
+        "element": "Dark\n(Gelap)",
+        "def": "315",
+        "mdef": "315",
+        "flee": "68",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "King Potum\n(Potum Raja)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "50",
+        "hp": "8.000",
+        "xp": "320",
+        "element": "Neutral\n(Netral)",
+        "def": "25",
+        "mdef": "51",
+        "flee": "112",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "25",
+        "proration_phys": "25",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Lapin The Necromancer\n(Dukun Lapin)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "124",
+        "hp": "1.665.000",
+        "xp": "17.222",
+        "element": "Neutral\n(Netral)",
+        "def": "143",
+        "mdef": "311",
+        "flee": "370",
+        "res_phys": "4",
+        "res_magic": "25",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "5",
+        "proration_normal": "10",
+        "proration_phys": "5",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Lord of Nezim\n(Datuk Nezim)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "227",
+        "hp": "8.850.000",
+        "xp": "39.200",
+        "element": "Water\n(Air)",
+        "def": "795",
+        "mdef": "681",
+        "flee": "183",
+        "res_phys": "45",
+        "res_magic": "6",
+        "res_crit": "5",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "10",
+        "proration_phys": "5",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Lyark Master Specialist\n(Kapten Lyark Spesialis)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "157",
+        "hp": "2.140.000",
+        "xp": "19.089",
+        "element": "Wind\n(Angin)",
+        "def": "157",
+        "mdef": "157",
+        "flee": "307",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "40",
+        "proration_phys": "35",
+        "proration_magic": "35"
+      }
+    ]
+  },
+  {
+    "name": "Mega Alpoca",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "204",
+        "hp": "6.891.870",
+        "xp": "34.100",
+        "element": "Neutral\n(Netral)",
+        "def": "612",
+        "mdef": "208",
+        "flee": "141",
+        "res_phys": "16",
+        "res_magic": "8",
+        "res_crit": "25",
+        "guard": "10",
+        "evade": "0",
+        "proration_normal": "33",
+        "proration_phys": "33",
+        "proration_magic": "3"
+      }
+    ]
+  },
+  {
+    "name": "Metal Stinger",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "82",
+        "hp": "337.800",
+        "xp": "4.050",
+        "element": "Earth\n(Bumi)",
+        "def": "164",
+        "mdef": "122",
+        "flee": "65",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Miracle Potum\n(Potum Ajaib)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "42",
+        "hp": "29.000",
+        "xp": "600",
+        "element": "Light\n(Cahaya)",
+        "def": "31",
+        "mdef": "51",
+        "flee": "95",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "5",
+        "proration_phys": "25",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Mithurna Lynx\n(Lynx Mithurna)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "177",
+        "hp": "3.128.000",
+        "xp": "25.725",
+        "element": "Light\n(Cahaya)",
+        "def": "354",
+        "mdef": "354",
+        "flee": "395",
+        "res_phys": "7",
+        "res_magic": "7",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "25",
+        "proration_phys": "25",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Moonlight Potum\n(Potum Rembulan)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "72",
+        "hp": "257.000",
+        "xp": "1.860",
+        "element": "Dark\n(Gelap)",
+        "def": "288",
+        "mdef": "0",
+        "flee": "108",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "50",
+        "proration_phys": "100",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Nightmare Potum",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "120",
+        "hp": "1.500.000",
+        "xp": "15.800",
+        "element": "Dark\n(Gelap)",
+        "def": "240",
+        "mdef": "281",
+        "flee": "358",
+        "res_phys": "54",
+        "res_magic": "54",
+        "res_crit": "0",
+        "guard": "30",
+        "evade": "10",
+        "proration_normal": "50",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Odelon Machina",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "146",
+        "hp": "2.300.000",
+        "xp": "21.357",
+        "element": "Light\n(Cahaya)",
+        "def": "110",
+        "mdef": "308",
+        "flee": "543",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "5",
+        "proration_normal": "1",
+        "proration_phys": "1",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Outer World Wolf\n(Serigala Luar)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "70",
+        "hp": "340.000",
+        "xp": "4.800",
+        "element": "Light\n(Cahaya)",
+        "def": "210",
+        "mdef": "174",
+        "flee": "210",
+        "res_phys": "20",
+        "res_magic": "20",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "20",
+        "proration_phys": "30",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Rhinosaur\n(Rhinosaurus)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "233",
+        "hp": "9.466.000",
+        "xp": "41.000",
+        "element": "Earth\n(Bumi)",
+        "def": "2330",
+        "mdef": "2832",
+        "flee": "480",
+        "res_phys": "30",
+        "res_magic": "15",
+        "res_crit": "10",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "100",
+        "proration_phys": "100",
+        "proration_magic": "100"
+      }
+    ]
+  },
+  {
+    "name": "Salamander",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "132",
+        "hp": "2.000.000",
+        "xp": "20.242",
+        "element": "Fire\n(Api)",
+        "def": "331",
+        "mdef": "330",
+        "flee": "395",
+        "res_phys": "5",
+        "res_magic": "5",
+        "res_crit": "0",
+        "guard": "15",
+        "evade": "5",
+        "proration_normal": "10",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Sand Bandits Leader\n(Ketua Bandit Gurun)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "215",
+        "hp": "10.000.000",
+        "xp": "48.500",
+        "element": "Earth\n(Bumi)",
+        "def": "645",
+        "mdef": "645",
+        "flee": "318",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "0",
+        "guard": "10",
+        "evade": "0",
+        "proration_normal": "50",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Sand Mole\n(Tikus Pasir)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "50",
+        "hp": "20.000",
+        "xp": "380",
+        "element": "Earth\n(Bumi)",
+        "def": "63",
+        "mdef": "63",
+        "flee": "75",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "15",
+        "proration_phys": "15",
+        "proration_magic": "15"
+      }
+    ]
+  },
+  {
+    "name": "Seltirio",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "60",
+        "hp": "60.000",
+        "xp": "960",
+        "element": "Dark\n(Gelap)",
+        "def": "45",
+        "mdef": "75",
+        "flee": "105",
+        "res_phys": "0",
+        "res_magic": "0",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "0",
+        "proration_phys": "25",
+        "proration_magic": "25"
+      }
+    ]
+  },
+  {
+    "name": "Seraph Machina",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "167",
+        "hp": "3.333.000",
+        "xp": "21.073",
+        "element": "Light\n(Cahaya)",
+        "def": "501",
+        "mdef": "168",
+        "flee": "248",
+        "res_phys": "33",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "5",
+        "proration_phys": "5",
+        "proration_magic": "100"
+      }
+    ]
+  },
+  {
+    "name": "Shining Gentleman\n(Baron Bling-Bling)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "82",
+        "hp": "220.000",
+        "xp": "6.000",
+        "element": "Light\n(Cahaya)",
+        "def": "410",
+        "mdef": "245",
+        "flee": "15",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "100",
+        "proration_phys": "5",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Silver Roar",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "42",
+        "hp": "14.570",
+        "xp": "590",
+        "element": "Water\n(Air)",
+        "def": "0",
+        "mdef": "15",
+        "flee": "505",
+        "res_phys": "1",
+        "res_magic": "11",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "100",
+        "proration_phys": "100",
+        "proration_magic": "100"
+      }
+    ]
+  },
+  {
+    "name": "Solopy",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "169",
+        "hp": "3.000.000",
+        "xp": "23.835",
+        "element": "Earth\n(Bumi)",
+        "def": "338",
+        "mdef": "339",
+        "flee": "534",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "10",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Stone Mercenary\n(Tentara Batu)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "60",
+        "hp": "59.000",
+        "xp": "960",
+        "element": "Earth\n(Bumi)",
+        "def": "120",
+        "mdef": "120",
+        "flee": "0",
+        "res_phys": "2",
+        "res_magic": "2",
+        "res_crit": "0",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "1",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Super Death Mushroom \n(Jamur Super Mampus)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "150",
+        "hp": "2.810.000",
+        "xp": "24.871",
+        "element": "Dark\n(Gelap)",
+        "def": "225",
+        "mdef": "225",
+        "flee": "224",
+        "res_phys": "4",
+        "res_magic": "4",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "30",
+        "proration_phys": "35",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Tappler\n(Pret)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "218",
+        "hp": "5.125.500",
+        "xp": "37.400",
+        "element": "Dark\n(Gelap)",
+        "def": "436",
+        "mdef": "349",
+        "flee": "384",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "10",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "20",
+        "proration_phys": "50",
+        "proration_magic": "50"
+      }
+    ]
+  },
+  {
+    "name": "Tardigrademon",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "213",
+        "hp": "5.384.750",
+        "xp": "38.157",
+        "element": "Fire\n(Api)",
+        "def": "555",
+        "mdef": "639",
+        "flee": "525",
+        "res_phys": "8",
+        "res_magic": "8",
+        "res_crit": "30",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Thug Golem\n(Golem Preman)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "191",
+        "hp": "3.942.300",
+        "xp": "29.190",
+        "element": "Water\n(Air)",
+        "def": "383",
+        "mdef": "383",
+        "flee": "270",
+        "res_phys": "14",
+        "res_magic": "14",
+        "res_crit": "0",
+        "guard": "15",
+        "evade": "5",
+        "proration_normal": "20",
+        "proration_phys": "20",
+        "proration_magic": "20"
+      }
+    ]
+  },
+  {
+    "name": "Tortuga",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "40",
+        "hp": "13.500",
+        "xp": "560",
+        "element": "Water\n(Air)",
+        "def": "30",
+        "mdef": "30",
+        "flee": "30",
+        "res_phys": "1",
+        "res_magic": "1",
+        "res_crit": "0",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "1",
+        "proration_phys": "1",
+        "proration_magic": "1"
+      }
+    ]
+  },
+  {
+    "name": "Trocostida\n(Trokostida)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "230",
+        "hp": "8.890.000",
+        "xp": "40.000",
+        "element": "Dark\n(Gelap)",
+        "def": "1380",
+        "mdef": "461",
+        "flee": "120",
+        "res_phys": "9",
+        "res_magic": "9",
+        "res_crit": "5",
+        "guard": "-",
+        "evade": "-",
+        "proration_normal": "20",
+        "proration_phys": "5",
+        "proration_magic": "5"
+      }
+    ]
+  },
+  {
+    "name": "Violacoon",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "80",
+        "hp": "450.000",
+        "xp": "5.472",
+        "element": "Earth\n(Bumi)",
+        "def": "320",
+        "mdef": "289",
+        "flee": "60",
+        "res_phys": "3",
+        "res_magic": "3",
+        "res_crit": "0",
+        "guard": null,
+        "evade": null,
+        "proration_normal": "30",
+        "proration_phys": "10",
+        "proration_magic": "10"
+      }
+    ]
+  },
+  {
+    "name": "Volotur",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "160",
+        "hp": "2.510.000",
+        "xp": "24.024",
+        "element": "Dark\n(Gelap)",
+        "def": "241",
+        "mdef": "240",
+        "flee": "288",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "5",
+        "evade": "5",
+        "proration_normal": "30",
+        "proration_phys": "40",
+        "proration_magic": "40"
+      }
+    ]
+  },
+  {
+    "name": "Wandering Wheel\n(Roda Kelana)",
+    "statdef": [
+      {
+        "difficulty": "normal",
+        "level": "163",
+        "hp": "2.610.000",
+        "xp": "20.223",
+        "element": "Wind\n(Angin)",
+        "def": "897",
+        "mdef": "816",
+        "flee": "368",
+        "res_phys": "6",
+        "res_magic": "6",
+        "res_crit": "0",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "30",
+        "proration_phys": "30",
+        "proration_magic": "30"
+      }
+    ]
+  },
+  {
+    "name": "Deformis",
+    "statdef": [
+      {
+        "difficulty": "easy",
+        "level": "264",
+        "hp": "83.000",
+        "xp": "3220",
+        "element": "Wind\n(Angin)",
+        "def": "fase1:83 fase2:20,8",
+        "mdef": "83",
+        "flee": "20,8",
+        "res_phys": "11",
+        "res_magic": "11",
+        "res_crit": "30",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "normal",
+        "level": "267",
+        "hp": "83.000",
+        "xp": "32200",
+        "element": "Wind\n(Angin)",
+        "def": "fase1:830 fase2:208",
+        "mdef": "830",
+        "flee": "280",
+        "res_phys": "11",
+        "res_magic": "11",
+        "res_crit": "30",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "hard",
+        "level": "284",
+        "hp": "16600000",
+        "xp": "32200",
+        "element": "Wind\n(Angin)",
+        "def": "fase1:1660 fase2:416",
+        "mdef": "fase1:1660 fase2:416",
+        "flee": "fase1:830 fase2:416",
+        "res_phys": "11",
+        "res_magic": "11",
+        "res_crit": "30",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "nightmare",
+        "level": "294",
+        "hp": "41500000",
+        "xp": "161000",
+        "element": "Earth\n(Bumi)",
+        "def": "fase1:3320 fase2:832",
+        "mdef": "fase1:3320 fase2:832",
+        "flee": "fase1:832 fase2:3320",
+        "res_phys": "11",
+        "res_magic": "11",
+        "res_crit": "30",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      },
+      {
+        "difficulty": "ultimate",
+        "level": "314",
+        "hp": "83000000",
+        "xp": "322000",
+        "element": "Earth\n(Bumi)",
+        "def": "fase1:4980 fase2:1248",
+        "mdef": "fase1:4980 fase2:1248",
+        "flee": "fase1:1248 fase2:4980",
+        "res_phys": "11",
+        "res_magic": "11",
+        "res_crit": "30",
+        "guard": "0",
+        "evade": "0",
+        "proration_normal": "3",
+        "proration_phys": "3",
+        "proration_magic": "3"
+      }
+    ]
+  }
+]
